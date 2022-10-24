@@ -1,8 +1,15 @@
-let paragraphs = document.getElementsByClassName("paragraphs");
+let Camille = document.getElementById("Camille");
+let Romain = document.getElementById("Romain");
+let Wilfried = document.getElementById("Wilfried");
 
-Array.from(paragraphs).forEach((el) => {
-    // Do stuff here
-    el.addEventListener('mouseover', (e) => {
-        console.log(el.id);
-    });
+Camille.addEventListener('mouseover', (e) => {
+    console.log(e.target.id);
+});
+
+Romain.addEventListener('mouseover', (e) => {
+    console.log(e.target.id);
+});
+
+Wilfried.addEventListener('mouseover', (e) => {
+    console.log(e.target.id);
 });
