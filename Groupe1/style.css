@@ -4,4 +4,10 @@
 
 #cocosteStyle {
   color: blue;
+  margin-left: 25px;
+}
+#pret {
+  color: pink;
+  margin-top: 15px;
+  font-size: large;
 }
