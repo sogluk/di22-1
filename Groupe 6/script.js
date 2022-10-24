@@ -3,7 +3,7 @@ var paraph1 =
 
     paraph1.addEventListener('mouseover',
         function(){
-        console.log("Le Délégué");
+        console.log("Le Délégué ramène les croissant jeudi");
     });
 
 var paraph2 =
