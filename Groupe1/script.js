@@ -1,6 +1,5 @@
-const dylanP = document.getElementsByClassId("dylanStyle");
+document.getElementById("dylanStyle").onmouseover = () => { mouseOver() };
 
-dylanP.addEventListener("mouseenter", function( event ) {
-console.log("Moi c'est Dylan");
-
-})
+const mouseOver = () => {
+    console.log("Salut moi c'est Dylan")
+}
