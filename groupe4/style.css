@@ -1,0 +1,11 @@
+.hover:nth-child(1) {
+    background-color: coral;
+}
+
+.hover:nth-child(2) {
+    background-color: goldenrod;
+}
+
+.hover:nth-child(3) {
+    background-color: darkcyan;
+}
